@@ -1,0 +1,252 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Utility classes */
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.max-w-6xl {
+    max-width: 72rem;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.space-y-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sm\:flex-row {
+    flex-direction: row !important;
+}
+
+.sm\:space-y-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.font-bai {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-transparent {
+    color: transparent;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+}
+
+.text-gray-300 {
+    color: #d1d5db;
+}
+
+.text-gray-400 {
+    color: #9ca3af;
+}
+
+.text-indigo-500 {
+    color: #6366f1;
+}
+
+.text-orange-500 {
+    color: #f59e0b;
+}
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, #000, #fd6464);
+}
+
+.bg-clip-text {
+    background-clip: text;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.w-52 {
+    width: 13rem;
+}
+
+.hover\:shadow-2xl:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.animate-jump-in {
+    animation: jump-in 0.75s ease-out;
+}
+
+@keyframes jump-in {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-duration-\[300ms\] {
+    animation-duration: 300ms !important;
+}
+
+.animate-ease-in-out {
+    animation-timing-function: ease-in-out;
+}
+
+/* Social media links */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.space-x-3 > :not([hidden])~:not([hidden]) {
+    margin-left: .75rem;
+}
+
+.p-3 {
+    padding: .75rem;
+}
+
+.sm\:p-4 {
+    padding: 1rem;
+}
+
+.hover\:bg-slate-500:hover {
+    background-color: #4a5568;
+}
+
+.text-mystic {
+    color: #a3bffa;
+}
+
+.bg-slate-700 {
+    background-color: #4c566a;
+}
+
+.hover\:text-slate-800:hover {
+    color: #2d3748;
+}
+
+/* Section separator */
+.border {
+    border-width: 1px;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.border-slate-900 {
+    border-color: #2d3748;
+}
+
+/* Skills, Hobbies, Stack */
+.x-cloak {
+    display: none;
+}
+
+.x-cloak {
+    display: none !important;
+}
+
+.x-data {
+    position: relative;
+}
+
+.x-intersect-enter > .animate-fade-up,
+.x-intersect-leave > .animate-fade-up {
+    transition: opacity .3s, transform .3s ease-out;
+}
+
+.animate-fade-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate-once {
+    animation-iteration-count: 1;
+}
+
+.animate-delay-300 {
+    animation-delay: 300ms;
+}
+
+.border-b-2 {
+    border-bottom-width: 2px;
+}
+
+.border-orange-600 {
+    border-color: #f59e0b;
+}
+
+/* Contact Me button */
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.duration-200 {
+    transition-duration: 200ms;
+}
+
+.hover\:ring-2:hover {
+    box-shadow: 0 0 0 2px rgba(237, 137, 54, 0.5);
+}
+
+.bg-gray-100 {
+    background-color: #f7fafc;
+}
+
+.text-gray-900 {
+    color: #2d3748;
+}
+
+.hover\:bg-gray-900:hover {
+    background-color: #2d3748;
+}
+
+.hover\:text-gray-100:hover {
+    color: #f7fafc;
+}
+
+.hover\:scale-105:hover {
+    transform: scale(1.05);
+}
